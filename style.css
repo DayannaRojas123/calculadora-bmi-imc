@@ -1,0 +1,89 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container {
+	border:solid 2px;
+	width:698px;
+	height:400px;
+	margin:auto;
+	margin-top:20px;
+	padding:8px 12px;
+	display:flex;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+}
+.uno{
+    margin-top: 60px;
+    float: left;
+    position: relative;
+    width: 339px;
+    padding-left: 72px;
+align-items: center;
+}
+.dos{
+    margin-top: 60px;
+    float: right;
+    width: 360px;
+}
+p{
+    display: flex;
+    position: absolute;
+}
+#dibujo{
+    display: flex;
+    background-image: url(./control-indice-masa-corporal-bastante-joven-dieta-tratando-controlar-peso-corporal-imc-chica-escala-metodo-medicion-grasas-saludables-escalas-graficas-obesidad-peso-obesidad-extrema_458444-1022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 190px;
+    width: 355px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 265px;
+}
+#resultado{
+    border:solid 1px;
+	height:100px;
+	width:100px;
+	margin:20px;
+	font-size:30px;
+	margin-left:55px;
+	position:absolute;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+    float: right;
+}
+.titulo2{
+    position: absolute;
+    float: right;
+    display: flex;
+}
+#peso{
+    display: flex;
+    align-items: center;
+}
+#altura{
+    display: flex;
+    align-items: center;
+}
+#calcular{
+    display: flex;
+    margin:30px;
+    background-color: aqua;
+}
+#reiniciar{
+    display: flex;
+    margin:30px;
+    background-color: aqua;
+}
+.unoo{
+    align-items: center;
+}
+.doss{
+    text-align: center;
+}
